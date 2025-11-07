@@ -1,5 +1,5 @@
 # Enclana — Encrypted Solana Layer
-CA:
+CA: 4NFBEzsioXTbnHMtF98mph5L4JomEpnQUh7qn4sopump
 
 Welcome to **Enclana**, the privacy-focused layer for Solana.  
 Enclana enables **encrypted transactions**, **commitment-based states**, and **zero-knowledge verification** —  
