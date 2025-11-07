@@ -1,0 +1,20 @@
+---
+
+## Using git-crypt with Enclana
+
+The **Enclana Project** may involve handling confidential configuration files, private keys, or cryptographic parameters (e.g., proving/verifying keys, wallet seeds, or encryption constants).  
+To secure such data within your repository while keeping it shareable among trusted collaborators, you can use **git-crypt**.
+
+### Initializing Encryption for Enclana
+
+Initialize git-crypt with a **named encryption key** specific to Enclana:
+
+```bash
+git-crypt init -k ENCLANA_KEY
+
+
+
+# Sensitive files encrypted with ENCLANA_KEY
+config/private.env filter=git-crypt-ENCLANA_KEY diff=git-crypt-ENCLANA_KEY
+keys/*.pem           filter=git-crypt-ENCLANA_KEY diff=git-crypt-ENCLANA_KEY
+zk-proofs/*.json     filter=git-crypt-ENCLANA_KEY diff=git-crypt-ENCLANA_KEY
