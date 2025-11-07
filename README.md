@@ -23,11 +23,11 @@ on Solana.
 
 ## Features
 
-- 🔒 **Encrypted Transfers:** Hide amounts, memos, and balances while preserving validity.
-- 🧮 **Zero-Knowledge Proofs:** Validate correctness (no inflation, correct balances) without revealing private data.
-- ⚙️ **Commitment-Based Ledger:** Use commitments and nullifiers for double-spend prevention.
-- 🌐 **Cross-Platform:** Compatible with Windows, macOS, and Linux.
-- 🧩 **Modular Design:** Integrates with existing Solana programs and clients.
+- **Encrypted Transfers:** Hide amounts, memos, and balances while preserving validity.
+- **Zero-Knowledge Proofs:** Validate correctness (no inflation, correct balances) without revealing private data.
+- **Commitment-Based Ledger:** Use commitments and nullifiers for double-spend prevention.
+- **Cross-Platform:** Compatible with Windows, macOS, and Linux.
+- **Modular Design:** Integrates with existing Solana programs and clients.
 
 ---
 
